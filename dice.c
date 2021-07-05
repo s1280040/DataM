@@ -23,8 +23,8 @@ int main(void)
         }
         
 	printf("Total value: %d\n",a[0]+a[1]);
-	 if(a[0]+a[1]>7)printf("You won\n");
-        else printf("You lose\n");
+	if(a[0]+a[1]>7)printf("%s won\n",name);
+	 else printf("%s lose\n",name);
 	return 0;
 }
 
