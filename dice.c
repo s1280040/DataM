@@ -6,6 +6,10 @@ int GetRandom(int min,int max);
 
 int main(void)
 {
+  char name[10];
+  printf("what is your name?>");
+  scanf("%s",name);
+  printf("Hello,%s!\n",name);
 	int i;
     int j;
     int a[2];
